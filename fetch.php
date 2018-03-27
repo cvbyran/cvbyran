@@ -162,12 +162,12 @@
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 465; // or 587
         $mail->IsHTML(true);
-        $mail->Username = "ohlsson.ludvig@gmail.com";
-        $mail->Password = "Ludvig93";
-        $mail->SetFrom("ohlsson.ludvig@gmail.com", "CV-BYRÅN");
+        $mail->Username = "cvbyran@gmail.com";
+        $mail->Password = "HYPERISLAND1337";
+        $mail->SetFrom("cvbyran@gmail.com", "CV-BYRÅN");
         $mail->Subject = "You have a CV-order!";
         $mail->Body = $newmsg;
-        $mail->AddAddress("ludvig.ohlsson@gmail.com");
+        $mail->AddAddress("cvbyran@gmail.com");
 
          if(!$mail->Send()) {
             echo "Mailer Error: " . $mail->ErrorInfo;
