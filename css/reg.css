@@ -1,0 +1,94 @@
+input{
+  border:none;
+  background-color: transparent;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.fa-linkedin-in{
+  color: gray;
+  position: absolute;
+  left: 13px;
+  z-index: 333;
+  line-height: 25px;
+  top: 25%;
+}
+
+#linkedinprofile {
+  padding-left: 30px;
+}
+
+.radio-img {
+  width: 150px;
+  max-width: 150px;
+}
+
+.cvimg {
+  width: 200px;
+  max-width: 200px;
+  height: auto;
+}
+
+.text-main {
+  color: #524b4b;
+}
+
+.content-section {
+}
+
+.content-section-heading {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.margin-top {
+  margin: 100px 0;
+}
+
+.bg-light {
+  background-color: #edf1f2 !important;
+}
+
+.add-new, .add-new:focus {
+  color: #2fb53e;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.add-new:hover, .add-new:active {
+  text-decoration: none;
+  color: #248a2f;
+}
+
+#addEducation:hover {
+  text-decoration: none;
+}
+
+.button-row {
+  margin-top: 2.5rem;
+}
+
+/*********/
+.second-header {
+  font-weight: 400;
+}
+
+.head-btn {
+  margin-top: 6rem;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: auto;
+}
+
+.logo img {
+  max-width: 300px;
+}
